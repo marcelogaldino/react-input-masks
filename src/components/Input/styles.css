@@ -1,0 +1,28 @@
+.input-group {
+    display: flex;
+}
+
+.prefix-span {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #555;
+}
+
+input {
+    flex: 1;
+    padding: 6px 12px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.prefix input {
+    border-radius:  2px 4px 4px 0;
+}
+
+.prefix .prefix-span {
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+    margin-bottom: 10px;
+}
